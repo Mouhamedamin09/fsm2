@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>FSM- Facult&eacute; des Sciences de Monastir</title>
+	<link rel="stylesheet" type="text/css" href="navStyle.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/logo.ico">
+</head>
+<body>
+	<section class="header">
+     <nav>
+         <a href="index.html"><img src="images/logo.ico"></a>
+         <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="HideMenu()"></i>
+             <ul>
+                 <li><a href="https://fsm.rnu.tn/fra/articles/categorie/p/1/2/nouveautes" target="_blank">Nouveaut&eacute;s</a></li>
+                 <li><a href="https://fsm.rnu.tn/fra/home" target="_blank">Faclut&eacute;</a></li>
+                 <li><a href="https://fsm.rnu.tn/fra/departements/Info/2/informatique" target="_blank">D&eacute;partemets</a></li>
+                 <li><a href="https://fsm.rnu.tn/fra/home" target="_blank">Formations</a></li>
+                 <li><a href="https://fsm.rnu.tn/fra/home" target="_blank">Estudiantine</a></li>
+                 <li><a href="https://fsm.rnu.tn/fra/home" target="_blank">Doctorale</a></li>
+                 <li><a href="https://fsm.rnu.tn/fra/home" target="_blank">Recherche</a></li>
+                 <li><a href="https://fsm.rnu.tn/fra/home" target="_blank">Stages</a></li>
+
+
+             </ul>
+
+         </div>
+         <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+     </nav>
+      <div class="text-box">
+        <a class="button" href="https://fsm.rnu.tn//extranet">Espace Extanet</a>
+        <h1>Facult&eacute; des Sciences de Monastir</h1>
+        <p>
+            Bienvenue sur la page d'accueil non officielle de la Faculté des Sciences de Monastir !<br> Ce site Web n'est pas officiel mais offre une interface pratique pour accéder aux informations.
+        </p>
+        <a href="https://fsm.rnu.tn/" class="hero-btn">Visit FSM</a>
+      </div>     
+    </section>
+
+ <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+        
+    }
+
+    function HideMenu() {
+        navLinks.style.right = "-200px";
+        
+    }
+</script>
+
+
+
+
+
+</body>
+</html>
